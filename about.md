@@ -1,7 +1,7 @@
 ---
-title: About
+title: Контакты
 layout: page
 permalink: "/about/"
 ---
 
-О MyHome
+E-mail: [myhome@samopal.pro](mailto:myhome@samopal.pro)
