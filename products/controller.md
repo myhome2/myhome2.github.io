@@ -22,16 +22,17 @@ menu_order: 10
 ![](/products/c3.jpg)
 ![](/products/c4.jpg)
 ![](/products/101.jpg)
-##Характеристики MyHome Controller
+
+## Характеристики MyHome Controller
 - Микроконтроллер: ATmega328PB-AU (TQFP32)
 - Тактовая частота: 8.0 МГц (внутренний резонатор)
 - Напряжение питания: 2.7В - 6.0В
 - Радиомодуль: NRF24L01+ (SPI интерфейс)
 - Программирование: UART протокол (RX/TX/DTR), загрузчик OPTIBOOT
 
-##Описание разъемов MyHome Controller
+## Описание разъемов MyHome Controller
 ![](/products/pinout.jpg){:width="100%" }
 
-##Ресурсы
+## Ресурсы
 Схему контроллера, тестовый скетч для Arduino IDE и другие ресурсы
 [https://github.com/myhome2/myhome_controller](https://github.com/myhome2/myhome_controller)
