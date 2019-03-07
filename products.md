@@ -1,8 +1,11 @@
 ---
-title: Продукты
+title: Железо
 layout: page
 permalink: "/products/"
-order: 1
+menu_section: Железо
+menu_level: 1
+menu_item: Железо
+menu_order: 2
 ---
 
 12345
