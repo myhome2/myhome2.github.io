@@ -1,4 +1,5 @@
 # Ignore docs files
+commit.cmd
 _gh_pages
 _site
 .ruby-version
