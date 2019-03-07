@@ -33,3 +33,7 @@ menu_order: 10
 Описание разъемов MyHome Controller
 -------------------------------------------
 ![](/products/pinout.jpg){:width="100%" }
+Ресурсы
+-------
+Схему контроллера, тестовый скетч для Arduino IDE и другие ресурсы
+[https://github.com/myhome2/myhome_controller](https://github.com/myhome2/myhome_controller)
