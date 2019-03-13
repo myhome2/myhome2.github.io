@@ -9,3 +9,4 @@ menu_order: 2
 ---
 
 | [Контролер MyHome Controller V1.1 на базе ATmega328PB](/products/controller) | <img src="/products/c3.jpg" width="150">|
+| [Емкостной модуль влажности почвы](/products/soil_shild) | <img src="/products/3d-soil-1.jpg" width="150">|
