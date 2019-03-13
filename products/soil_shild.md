@@ -35,3 +35,7 @@ menu_order: 12
 
 ![](/products/soil1.jpg)
 ![](/products/soil2.jpg)
+
+## Ресурсы
+
+[https://github.com/myhome2/myhome_soil_sensor](https://github.com/myhome2/myhome_soil_sensor)
