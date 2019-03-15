@@ -5,6 +5,7 @@ menu_section: Железо
 menu_level: 2
 menu_item: MyHome Soil Module
 menu_order: 12
+ermalink: "/products/soil_shild/"
 ---
 
 **MyHome Soil Module** 
