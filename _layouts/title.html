@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  {% include head.html %}
+
+  <body class="sidebar-overlay">
+
+    {% include sidebar.html %}
+
+    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+         content to avoid any CSS collisions with our real content. -->
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+		  
+          <h3 class="masthead-title">
+            <a href="{{ site.baseurl }}/" title="Home"><img src="/img/logo1.png" width="300"></a>
+          </h3>
+        </div>
+      </div>
+      <div class="container">
+	     <h2 class="masthead-title">{{ page['menu_section'] }} </h2>
+	  </div>
+      <div class="container content">
+
+    {% assign pages_list = site.pages | sort:"menu_order" %}
+    {% for node in pages_list %}
+		{% if node.menu_section == page['menu_section'] %}   
+           {% if node.menu_level == 2 and node.menu_section == page['menu_section']%}
+            <a class="sidebar-nav-item1" href="{{ node.url }}">{{ node.title }}</a>
+           {% endif %}			 
+        {% endif %}
+          
+     {% endfor %}
+         
+
+      </div>
+    </div>
+
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+    <script>
+      (function(document) {
+        var toggle = document.querySelector('.sidebar-toggle');
+        var sidebar = document.querySelector('#sidebar');
+        var checkbox = document.querySelector('#sidebar-checkbox');
+
+        document.addEventListener('click', function(e) {
+          var target = e.target;
+
+          if(!checkbox.checked ||
+             sidebar.contains(target) ||
+             (target === checkbox || target === toggle)) return;
+
+          checkbox.checked = false;
+        }, false);
+      })(document);
+    </script>
+  </body>
+</html>

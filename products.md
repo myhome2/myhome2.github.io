@@ -1,6 +1,6 @@
 ---
 title: Железо
-layout: page
+layout: title
 permalink: "/products/"
 menu_section: Железо
 menu_level: 1
