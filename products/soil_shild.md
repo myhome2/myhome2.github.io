@@ -1,11 +1,12 @@
 ---
-title: MyHome Soil Module
+title: "Емкостной модуль измерения влажности почвы"
 layout: page
 menu_section: Железо
 menu_level: 2
-menu_item: MyHome Soil Module
+menu_item: "MyHome Soil Module"
 menu_order: 12
 ermalink: "/products/soil_shild/"
+image: "/products/3d-soil-1.jpg"
 ---
 
 **MyHome Soil Module** 

@@ -1,10 +1,11 @@
 ---
-title: MyHome Relay Module
+title: "Исполнительный модуль с двумя реле для MyHome"
 layout: page
 menu_section: Железо
 menu_level: 2
-menu_item: MyHome Relay Module
+menu_item: "MyHome Relay Module"
 ermalink: "/products/relay_shild/"
+image: "/products/relay-3D-1.jpg"
 menu_order: 14
 ---
 

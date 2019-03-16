@@ -22,7 +22,7 @@
 		  {% if node.menu_section == page['menu_section'] %}   
              {% for node1 in pages_list %}	
                  {% if node1.menu_level == 2 and node1.menu_section == page['menu_section']%}
-            <a class="sidebar-nav-item1{% if page.url == node1.url %} active{% endif %}" href="{{ node1.url }}">{{ node1.title }}</a>
+            <a class="sidebar-nav-item1{% if page.url == node1.url %} active{% endif %}" href="{{ node1.url }}">{{ node1.menu_item }}</a>
                  {% endif %}			 
              {% endfor %}			 
           {% endif %}

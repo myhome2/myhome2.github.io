@@ -19,20 +19,26 @@
         </div>
       </div>
       <div class="container">
-	     <h2 class="masthead-title">{{ page['menu_section'] }} </h2>
+	     <h1 class="masthead-title">{{ page['menu_section'] }} </h1>
 	  </div>
       <div class="container content">
+	  <table border="0">
+	    
 
     {% assign pages_list = site.pages | sort:"menu_order" %}
     {% for node in pages_list %}
 		{% if node.menu_section == page['menu_section'] %}   
            {% if node.menu_level == 2 and node.menu_section == page['menu_section']%}
-            <a class="sidebar-nav-item1" href="{{ node.url }}">{{ node.title }}</a>
+		       <tr>
+			   <td> <a class="sidebar-nav-item1" href="{{ node.url }}"><b>{{ node.menu_item }}</b></a></td>
+			   <td> <a class="sidebar-nav-item1" href="{{ node.url }}">{{ node.title }}</a></td>
+			   <td><img src="{{ node.image }}" width="150"></td>
+			   </tr>
            {% endif %}			 
         {% endif %}
           
      {% endfor %}
-         
+     </table>    
 
       </div>
     </div>

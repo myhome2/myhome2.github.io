@@ -1,10 +1,11 @@
 ---
-title: MyHome Controller
+title: Контроллер на Atmega328PB с радиомодулем NRF24L01
 layout: page
 ermalink: "/products/controller/"
 menu_section: Железо
 menu_level: 2
 menu_item: MyHome Controller
+image: /products/c3.jpg
 menu_order: 10
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Готовые решения
-layout: page
+layout: title
 permalink: "/solutions/"
 menu_section: Решения
 menu_level: 1

@@ -1,11 +1,12 @@
 ---
-title: MyHome Battery Modules
+title: "Батарейны модули MyHome с 2xAAA и CR2450"
 layout: page
 menu_section: Железо
 menu_level: 2
-menu_item: MyHome Battery Modules
+menu_item: "MyHome Battery Modules"
 ermalink: "/products/battery_shild/"
 menu_order: 13
+image: "/products/AAA-3D-1.jpg"
 ---
 
 **Модули батарейного питания для MyHome** 
