@@ -5,7 +5,7 @@ menu_section: Железо
 menu_level: 2
 menu_item: "MyHome Relay Module"
 ermalink: "/products/relay_shild/"
-image: "/products/relay-3D-1.jpg"
+image: "/products/relay-3d-1.jpg"
 menu_order: 14
 ---
 
@@ -16,6 +16,6 @@ menu_order: 14
 
 Модуль рассчитан на внешнее питание 5В. 
 
-![](/products/relay-3D-1.jpg)
-![](/products/relay-3D-2.jpg)
-![](/products/relay-3D-3.jpg)
+![](/products/relay-3d-1.jpg)
+![](/products/relay-3d-2.jpg)
+![](/products/relay-3d-3.jpg)

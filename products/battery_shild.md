@@ -6,7 +6,7 @@ menu_level: 2
 menu_item: "MyHome Battery Modules"
 ermalink: "/products/battery_shild/"
 menu_order: 13
-image: "/products/AAA-3D-1.jpg"
+image: "/products/AAA-3d-1.jpg"
 ---
 
 **Модули батарейного питания для MyHome** 
@@ -49,11 +49,11 @@ image: "/products/AAA-3D-1.jpg"
 
 
 ### Модуль на двух элементах AAA 1.5В
-![](/products/AAA-3D-1.jpg)
-![](/products/AAA-3D-2.jpg)
+![](/products/AAA-3d-1.jpg)
+![](/products/AAA-3d-2.jpg)
 
 ### Модуль на литиевой батарее CR2450 3.0В
-![](/products/CR2450-3D-1.jpg)
-![](/products/CR2450-3D-2.jpg)
+![](/products/CR2450-3d-1.jpg)
+![](/products/CR2450-3d-2.jpg)
 
 
